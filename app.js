@@ -1,13 +1,13 @@
 // very easy
-let numOne = 8
-let numTwo = 5
-let difference = numOne - numTwo
+let numOne = 8;
+let numTwo = 5;
+let difference = numOne - numTwo;
 console.log(`The difference between ${numOne} and ${numTwo} is ${difference}`)
 
 //easy
-let nameOne = 'Billy'
-let nameTwo = 'Amy'
-let characterDiff = nameOne.length - nameTwo.length
+let nameOne = 'Billy';
+let nameTwo = 'Amy';
+let characterDiff = nameOne.length - nameTwo.length;
 console.log(`The name ${nameOne} is longer than ${nameTwo} by ${characterDiff} characters.`)
 
 //medium
@@ -49,11 +49,11 @@ function divide(a,b) {
 console.log(divide(12,4))
 
 //very hard
-let x = prompt("To use this calculator please enter a first number:")
-let operator = prompt("Now choose an operator: + , - , * , / ")
-let y = prompt("And then enter the second number:")
-x = parseFloat(x)
-y = parseFloat(y)
+let x = prompt("To use this calculator please enter a first number:");
+let operator = prompt("Now choose an operator: + , - , * , / ");
+let y = prompt("And then enter the second number:");
+x = parseFloat(x);
+y = parseFloat(y);
 
 if (operator == '+'){
     alert(`${x} + ${y} = ${add(x,y)}`)
